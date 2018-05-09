@@ -4,7 +4,7 @@
 		 $('#sonar').tap(function(){
 			 navigator.notification.beep(2);
 		 }); // tap sonar
-		 $('vibrar').tap(function(){
+		 $('#vibrar').tap(function(){
 			 navigator.notification.vibrate(2000);
 		 }); // tap vibrar
  },false); //cierre deviceready
